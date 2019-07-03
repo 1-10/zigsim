@@ -1,4 +1,5 @@
 module.exports = {
+  title: 'ZIG SIM',
   base: '/zigsim/',
   dest: '../docs',
   themeConfig: {
