@@ -71,6 +71,7 @@ export default {
 </script>
 
 <style lang="stylus">
+@require '../styles/override'
 .home
   padding $navbarHeight 2rem 0
   max-width 960px
@@ -91,7 +92,8 @@ export default {
       max-width 35rem
       font-size 1.6rem
       line-height 1.3
-      color lighten($textColor, 40%)
+      // color lighten($textColor, 40%)
+      color $textColor
     .action-button
       display inline-block
       font-size 1.2rem
@@ -122,14 +124,17 @@ export default {
       font-weight 500
       border-bottom none
       padding-bottom 0
-      color lighten($textColor, 10%)
+      // color lighten($textColor, 10%)
+      color $textColor
     p
-      color lighten($textColor, 25%)
+      // color lighten($textColor, 25%)
+      color $textColor
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
     text-align center
-    color lighten($textColor, 25%)
+    // color lighten($textColor, 25%)
+    color $textColor
 
 @media (max-width: $MQMobile)
   .home

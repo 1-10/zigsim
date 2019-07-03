@@ -26,12 +26,12 @@
         'max-width': linksWrapMaxWidth + 'px'
       } : {}"
     >
+      <NavLinks class="can-hide"/>
       <AlgoliaSearchBox
         v-if="isAlgoliaSearch"
         :options="algolia"
       />
       <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false"/>
-      <NavLinks class="can-hide"/>
     </div>
   </header>
 </template>
@@ -86,6 +86,8 @@ function css (el, property) {
 </script>
 
 <style lang="stylus">
+@require '../styles/override'
+
 $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
@@ -107,7 +109,7 @@ $navbar-horizontal-padding = 1.5rem
   .links
     padding-left 1.5rem
     box-sizing border-box
-    background-color white
+    // background-color white
     white-space nowrap
     font-size 0.9rem
     position absolute
@@ -115,6 +117,7 @@ $navbar-horizontal-padding = 1.5rem
     top $navbar-vertical-padding
     display flex
     .search-box
+      padding-left 1.5em
       flex: 0 0 auto
       vertical-align top
 
