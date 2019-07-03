@@ -1,0 +1,17 @@
+{
+  "name": "zigsim-document",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd src && vuepress dev",
+    "build": "cd src && vuepress build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "fand <fand.gmork@gmail.com> (https://gmork.in/)",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
