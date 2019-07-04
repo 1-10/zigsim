@@ -21,12 +21,14 @@ module.exports = {
           '/features/gps',
           '/features/pressure',
           '/features/mic-level',
+          '/features/remote-control',
           '/features/beacon',
           '/features/arkit',
           '/features/ndi',
           '/features/image-detection',
         ],
       },
+      '/terms-of-use',
     ]
   }
 }
