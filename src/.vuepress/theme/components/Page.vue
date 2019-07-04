@@ -57,6 +57,10 @@
       </p>
     </div>
 
+    <footer class="footer">
+      Copyright © 1→10, inc.
+    </footer>
+
     <slot name="bottom"/>
   </main>
 </template>
@@ -231,6 +235,11 @@ function flatten (items, res) {
     overflow auto // clear float
   .next
     float right
+
+.footer
+  width 100%
+  line-height 80px
+  text-align center
 
 @media (max-width: $MQMobile)
   .page-edit
