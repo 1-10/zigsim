@@ -2,7 +2,7 @@
 home: true
 heroText: ZIG SIM
 heroImage: /logo.png
-tagLine: Prototype with your smartphone
+tagline: Prototype with your smartphone
 actionText: Get Started
 actionLink: /guide/
 footer: Copyright © 1→10, inc.
