@@ -32,8 +32,9 @@ module.exports = {
         title: 'Legal Information',
         collapsable: false,
         children: [
-          '/terms-of-use',
-          '/privacy-policy',
+          '/legal/terms-of-use',
+          '/legal/privacy-policy',
+          '/legal/act-on-specified-commercial-transactions',
         ],
       },
     ]
