@@ -28,7 +28,14 @@ module.exports = {
           '/features/image-detection',
         ],
       },
-      '/terms-of-use',
+      {
+        title: 'Legal Information',
+        collapsable: false,
+        children: [
+          '/terms-of-use',
+          '/privacy-policy',
+        ],
+      },
     ]
   }
 }
