@@ -20,6 +20,7 @@ module.exports = {
           '/features/compass',
           '/features/gps',
           '/features/pressure',
+          '/features/proximity',
           '/features/mic-level',
           '/features/remote-control',
           '/features/beacon',
