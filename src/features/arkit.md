@@ -68,6 +68,11 @@ This data is only avalable in `DEVICE` mode and `MARKER` mode.
 
 Users can choose objects to detect.
 
-- **DEVICE**: device position, device rotation, feature points' positions.
-- **FACE**: device rotation, face position, face rotation, eye position.
-- **MARKER**: device rotation, marker position, marker rotation.
+- `DEVICE`: device position, device rotation, feature points' positions.
+- `FACE`: device rotation, face position, face rotation, eye position.
+- `MARKER`: device rotation, marker position, marker rotation.
+
+### Feature Points
+
+Toggle feature points tracking in device tracking mode.
+If `On`, ZIG SIM outputs the positions of the feature points over the network.
