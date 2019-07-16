@@ -11,7 +11,7 @@ In this document we call this index `BEACON_ID`.
 ### BeaconUUID
 
 - OSC Address: `/(deviceUUID)/beacon(BEACON_ID)` (1st value)
-- JSON key: `/(deviceUUID)/beacon[(BEACON_ID)].uuid`
+- JSON key: `beacon[(BEACON_ID)].uuid`
 
 The UUID of the beacon.
 This is always same as the beacon UUID specified in the detail settings.
@@ -19,21 +19,21 @@ This is always same as the beacon UUID specified in the detail settings.
 ### Major
 
 - OSC Address: `/(deviceUUID)/beacon(BEACON_ID)` (2st value)
-- JSON key: `/(deviceUUID)/beacon[(BEACON_ID)].major`
+- JSON key: `beacon[(BEACON_ID)].major`
 
 The identifier to differentiate groups of beacons with the same UUID.
 
 ### Minor
 
 - OSC Address: `/(deviceUUID)/beacon(BEACON_ID)` (3rd value)
-- JSON key: `/(deviceUUID)/beacon[(BEACON_ID)].minor`
+- JSON key: `beacon[(BEACON_ID)].minor`
 
 The identifier to differentiate groups of beacons with the same UUID and major value.
 
 ### RSSI
 
 - OSC Address: `/(deviceUUID)/beacon(BEACON_ID)` (4th value)
-- JSON key: `/(deviceUUID)/beacon[(BEACON_ID)].rssi`
+- JSON key: `beacon[(BEACON_ID)].rssi`
 
 The strength of the signal from the beacon.
 The value is always negative (larger is stronger).
