@@ -4,7 +4,7 @@ module.exports = {
   dest: '../docs',
   themeConfig: {
     nav: [
-      { text: 'Guide', link: '/guide/' },
+      { text: 'Docs', link: '/docs/' },
       { text: '1→10', link: 'https://1-10.com/' },
     ],
     sidebar: [
