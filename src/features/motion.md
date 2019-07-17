@@ -1,6 +1,6 @@
 # Motion Data
 
-There are 4 commands related to motion data.
+There are 4 commands related to motion data: **Acceleration**, **Gravity**, **Gyro**, **Quaternion**.
 
 ## Acceleration
 
