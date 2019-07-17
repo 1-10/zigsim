@@ -43,4 +43,6 @@ The value is always negative (larger is stronger).
 ### Beacon UUID
 
 Specify the beacon uuid to track.
-UUID must be in the format: `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`. All characters must be alphabetical letters (A-Z) or numbers (0-9).
+
+UUID must be in the format: `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`.
+All characters must be alphabetical letters (A-Z) or numbers (0-9).
