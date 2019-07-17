@@ -8,7 +8,15 @@ module.exports = {
       { text: '1→10', link: 'https://1-10.com/' },
     ],
     sidebar: [
-      '/',
+      ['/docs', 'Introduction'],
+      {
+        title: 'Usage',
+        collapsable: false,
+        children: [
+          '/getting-started',
+          '/tutorial',
+        ],
+      },
       {
         title: 'Features',
         collapsable: false,
@@ -39,5 +47,8 @@ module.exports = {
         ],
       },
     ]
-  }
+  },
+  markdown: {
+    breaks: true,
+  },
 }

@@ -74,7 +74,7 @@ export default {
 @require '../styles/override'
 .home
   padding $navbarHeight 2rem 0
-  max-width 960px
+  max-width 720px
   margin 0px auto
   display block
   .hero

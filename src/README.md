@@ -2,24 +2,31 @@
 home: true
 heroText: ZIG SIM
 heroImage: /logo.png
-tagline: Prototype with your smartphone
+tagline: ---
 actionText: Get Started
-actionLink: /guide/
+actionLink: /docs/
 footer: Copyright © 1→10, inc.
 ---
-## ZIG Project
 
-ZIGプロジェクトは1-10の強みであるプロトタイピング駆動の体験設計を素早く、効率的に行うためのツール群をリリースするプロジェクトです。
-ZIGプロジェクトをリリースする事により、体験設計という1-10の見えにくい仕事を見える化する事を目的とします。
+<h1>Prototype with your smartphone.</h1>
 
-## ZIG Simulator
+ZIG SIM is an application to develop prototypes utilizing sensors on smartphones.
 
-ZIG Simulatorは『フィジカル・プロトタイピングをプロトタイピングする』ためのアプリケーションです。 従来、センサを利用したプロトタイピングを行う場合、 電子工作、マイコンプログラミング、通信仕様策定、アプリケーションプログラミングと4つの作業を行う必要があり 異なるエンジニアリングスキルが必要とされていました。
+Smartphones are getting smarter - they ship with bunch of features and sensors.
+However, developing apps with them is not as easy as you'd expect.
 
-ZIG SIMではスマートフォンを『センサとwifiモジュールを取り付けたフィジカル・プロトタイピングデバイス』とすることで、『センサ受信プログラム』のみでのプロトタイピングが制作可能になりました。
+This is why we developed ZIG SIM.
+ZIG SIM allows you to easily monitor the data from sensors and APIs of your device.
+You can also send the data to the PC in JSON/OSC format over TCP/UDP protocol.
 
-## ZIG Indicator
+You can explore the possibility to create wearable devices and IoT, without buying new gadgets.
 
-ZIG Indicatorはセンサの値をビジュアライズするアプリケーションです。ZIG SIMと組み合わせることで『各センサからどのような値が取り出せるのか？』といった確認作業、『目的にあっているセンサはどれなのか？』といった検証作業を、プログラムを一切書く事なく行うことが可能です。
+<br>
 
-ZIG Indicatorで値を表示しつつ、同時にアプリケーションの開発ができるため、ZIG SIMを使ったプロトタイピングをさらに効率的に行う事ができます。
+### Developed by 1→10, Inc.
+
+1→10, Inc. is a creative studio in Japan.
+We develop various digital contents, games, installations and Web services.
+We also offer consulting service for product design and prototyping.
+
+Contact us from [https://www.1-10.com/](https://www.1-10.com/).
