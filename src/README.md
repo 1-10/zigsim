@@ -4,7 +4,7 @@ heroText: ZIG SIM
 heroImage: /logo.png
 tagline: ---
 actionText: Get Started
-actionLink: /docs/
+actionLink: /getting-started
 footer: Copyright © 1→10, inc.
 ---
 
