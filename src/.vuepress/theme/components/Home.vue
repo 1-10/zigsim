@@ -81,14 +81,13 @@ export default {
       display inline-block
       font-size 1.2rem
       color #fff
-      background-color $accentColor
+      background-color $overlay
       padding 0.8rem 1.6rem
       border-radius 4px
       transition background-color .1s ease
       box-sizing border-box
-      border-bottom 1px solid darken($accentColor, 10%)
       &:hover
-        background-color lighten($accentColor, 10%)
+        background-color lighten($accentColor, 3%)
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
