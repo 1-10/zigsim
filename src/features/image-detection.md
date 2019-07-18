@@ -123,7 +123,7 @@ Output only when Detection Type is `QR`.
 - JSON key: `imagedetect[FEATURE_ID].qrerrorcorrectionlevel`
 
 
-The QR code error correction level, which has following options: **L**,  **M**, **Q**, **H**.
+The QR code error correction level, which has following options: **levelL**,  **levelM**, **levelQ**, **levelH**.
 Output only when Detection Type is `QR`.
 
 
