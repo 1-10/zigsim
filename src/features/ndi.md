@@ -6,6 +6,8 @@ Video and audio are transmitted over NDI protocol, so you can receive the data w
 
 The framerate follows the message rate in general settings.
 
+You cannot use NDI, ARKit and Image Detection simultaneously.
+
 ## Outputs
 
 No outputs.
