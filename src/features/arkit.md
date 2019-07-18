@@ -14,6 +14,8 @@ The markers can be obtained here:
 
 (TBD)
 
+You cannot use NDI, ARKit and Image Detection simultaneously.
+
 ## Outputs
 
 ### Device Position and Rotation
