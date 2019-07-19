@@ -10,9 +10,7 @@ In **DEVICE** mode, ZIG SIM will track the 6DoF position of the device.
 In **FACE** mode, ZIG SIM does face tracking.
 
 In **MARKER** mode, ZIG SIM tracks pre-defined markers.
-The markers can be obtained here:
-
-(TBD)
+The markers can be obtained here: *[zigsim-markers.zip](./zigsim-markers.zip)*
 
 You cannot use NDI, ARKit and Image Detection simultaneously.
 
