@@ -23,12 +23,13 @@ Get the app for your device on App Store, or Google Play:
 }
 </style>
 
-Currently
 
 ## Send Data to PC
 
-- ZIG Indicator
-- TouchDesigner
+ZIG SIM can send the data to the PCs in local network over TCP or UDP protocol.
+You can choose the data format from OSC or JSON.
 
-You can receive the OSC/JSON data with any apps supporting TCP or UDP protocol.
-If you're not familiar with using OSC, See [Tutorial](./tutorial) page.
+The most common usecase is using OSC over UDP.
+Many apps supports OSC over UDP, for example TouchDesigner, Max, Processing, etc.
+
+If you're not familiar with using OSC, See *[Tutorial](./tutorial)* page.
