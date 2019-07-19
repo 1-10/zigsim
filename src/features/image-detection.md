@@ -1,5 +1,7 @@
 # Image Detection
 
+![Premium Feature](https://img.shields.io/badge/Premium%20Feature-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+
 Image Detection command identifies notable features (such as faces and barcodes) from a camera.
 Max frame rate is 30fps, so if you set 60fps it works on 30fps. Note that at the higher the frame rate and resolution, computational cost gets higher. You cannot use NDI, ARKit and Image Detection simultaneously.
 

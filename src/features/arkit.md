@@ -1,5 +1,7 @@
 # ARKit
 
+![Premium Feature](https://img.shields.io/badge/Premium%20Feature-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+
 ARKit command tracks the position and the rotation for various objects.
 
 This command has 3 mode: **DEVICE**, **FACE** and **MARKER**.

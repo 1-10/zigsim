@@ -1,5 +1,7 @@
 # Apple Pencil
 
+![Premium Feature](https://img.shields.io/badge/Premium%20Feature-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+
 Apple Pencil command detects touch events in Start tab (same as Touch command).
 Note that it only works on Apple Pencil compatible devices, that are some of iPad models.
 

@@ -1,5 +1,7 @@
 # Motion Data
 
+![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android supported](https://img.shields.io/badge/Android-supported-brightgreen.svg)
+
 There are 4 commands related to motion data: **Acceleration**, **Gravity**, **Gyro**, **Quaternion**.
 
 ## Acceleration

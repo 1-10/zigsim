@@ -1,5 +1,7 @@
 # Remote Control
 
+![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+
 Remote Control command monitors the state of remote controllers of headphones connected to the device.
 
 ## Outputs

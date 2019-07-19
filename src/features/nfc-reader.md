@@ -1,5 +1,7 @@
 # NFC Reader
 
+![Premium Feature](https://img.shields.io/badge/Premium%20Feature-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+
 NFC Reader command detects NFC tags and read messages that contain NDEF data.
 Output values are defined by the NDEF specification.
 

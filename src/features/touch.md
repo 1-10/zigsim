@@ -1,5 +1,7 @@
 # Touch
 
+![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android supported](https://img.shields.io/badge/Android-supported-brightgreen.svg)
+
 Touch command detects touch events in Start tab and outputs following values:
 
 - Position

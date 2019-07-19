@@ -1,5 +1,7 @@
 # NDI™
 
+![Premium Feature](https://img.shields.io/badge/Premium%20Feature-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+
 NDI command transmits video and audio captured by the device over NDI protocol.
 Unlike other features, NDI does not output any data over TCP/UDP.
 Video and audio are transmitted over NDI protocol, so you can receive the data with NDI client apps like [NewTek NDI Video Monitor](https://www.newtek.com/ndi/tools/), [TouchDesigner](https://www.derivative.ca/), etc.

@@ -1,5 +1,7 @@
 # Beacon
 
+![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+
 Beacon command detects iBeacons around the device.
 
 ZIG SIM detects all beacons with specified beacon UUID as long as the device can track.

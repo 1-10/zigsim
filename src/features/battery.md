@@ -1,5 +1,7 @@
 # Battery
 
+![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android supported](https://img.shields.io/badge/Android-supported-brightgreen.svg)
+
 Battery command monitors the battery charge level of the device.
 
 ## Outputs
