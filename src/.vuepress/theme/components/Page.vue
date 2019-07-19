@@ -237,6 +237,7 @@ function flatten (items, res) {
     float right
 
 .footer
+  box-sizing border-box
   width 100%
   line-height 80px
   text-align center
