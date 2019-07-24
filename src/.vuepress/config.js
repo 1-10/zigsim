@@ -2,6 +2,7 @@ module.exports = {
   title: 'ZIG SIM',
   base: '/zigsim/',
   dest: '../docs',
+  description: 'ZIG SIM is an application to develop prototypes utilizing sensors on smartphones.',
   themeConfig: {
     nav: [
       { text: 'Docs', link: '/docs/' },
