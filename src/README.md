@@ -4,6 +4,7 @@ heroText: ZIG SIM
 heroImage: /logo.png
 actionText: Get Started
 actionLink: /getting-started
+description: ZIG SIM is an application to develop prototypes utilizing sensors on smartphones.
 footer: Copyright © 1→10, inc.
 ---
 
