@@ -15,9 +15,8 @@
       <span
         ref="siteName"
         class="site-name"
-        v-if="$siteTitle"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
+      >ZIG SIM</span>
     </router-link>
 
     <div
