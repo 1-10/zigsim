@@ -2,7 +2,22 @@
 
 ## Install
 
-Get the app for your device on App Store, or Google Play:
+We have 2 versions of apps: **ZIG SIM** and **ZIG SIM Pro**.
+
+### ZIG SIM Pro
+
+ZIG SIM Pro is the latest version of ZIG SIM.
+It includes more powerful features such as ARKit, NDI, Image Detection etc.
+ZIG SIM Pro is currently only available for iOS.
+
+<a
+  target="\_blank"
+  style="display: inline-block; width: 190px;"
+  href="https://apps.apple.com/us/app/zig-sim-pro/id1481556614"><img style="margin: 7%; width: 88%" alt="Download on the App Store" src="ios-badge.svg"/></a>
+
+### ZIG SIM
+
+The old version of ZIG SIM is available for iOS and Android for free.
 
 <div class="badges">
 <a
