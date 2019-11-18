@@ -1,6 +1,6 @@
 # NFC Reader
 
-![Premium Feature](https://img.shields.io/badge/Premium%20Feature-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+![Pro](https://img.shields.io/badge/Pro-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
 
 NFC Reader command detects NFC tags and read messages that contain NDEF data.
 Output values are defined by the NDEF specification.
@@ -8,6 +8,8 @@ Output values are defined by the NDEF specification.
 One NFC tag can contain multiple messages, and one message can contain multiple records.
 Each message is accessible with the index in tag, and each record is accessible with the message.
 In this document we call these indexes `MESSAGE_ID` and `RECORD_ID`.
+
+NFC Reader command is only available in ZIG SIM Pro.
 
 ## Outputs
 

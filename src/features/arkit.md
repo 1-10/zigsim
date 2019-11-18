@@ -1,6 +1,6 @@
 # ARKit
 
-![Premium Feature](https://img.shields.io/badge/Premium%20Feature-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+![Pro](https://img.shields.io/badge/Pro-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
 
 ARKit command tracks the position and the rotation for various objects.
 
@@ -14,7 +14,8 @@ In **FACE** mode, ZIG SIM does face tracking.
 In **MARKER** mode, ZIG SIM tracks pre-defined markers.
 The markers can be obtained here: *[zigsim-markers.zip](./zigsim-markers.zip)*
 
-You cannot use NDI, ARKit and Image Detection simultaneously.
+ARKit command is only available in ZIG SIM Pro.
+Also, you cannot use NDI, ARKit and Image Detection simultaneously.
 
 ## Outputs
 

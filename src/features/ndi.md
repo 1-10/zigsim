@@ -1,6 +1,6 @@
 # NDI™
 
-![Premium Feature](https://img.shields.io/badge/Premium%20Feature-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
+![Pro](https://img.shields.io/badge/Pro-yellow.svg) ![iOS supported](https://img.shields.io/badge/iOS-supported-brightgreen.svg) ![Android not supported](https://img.shields.io/badge/Android-not%20supported-red.svg)
 
 NDI command transmits video and audio captured by the device over NDI protocol.
 Unlike other features, NDI does not output any data over TCP/UDP.
@@ -8,7 +8,8 @@ Video and audio are transmitted over NDI protocol, so you can receive the data w
 
 The framerate follows the message rate in general settings.
 
-You cannot use NDI, ARKit and Image Detection simultaneously.
+NDI command is only available in ZIG SIM Pro.
+Also, you cannot use NDI, ARKit and Image Detection simultaneously.
 
 ## Outputs
 
