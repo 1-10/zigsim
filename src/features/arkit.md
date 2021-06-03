@@ -49,7 +49,7 @@ This data is only available in **DEVICE** mode.
   - Position: `faceTracking.position`
   - Rotation: `faceTracking.rotation`
 
-  For `Face Position and Rotation` and the details, see *[Apple Developer Documentation, ARFaceAnchor](https://developer.apple.com/documentation/arkit/arfaceanchor)*.
+For `Face Position and Rotation` and the details, see *[Apple Developer Documentation, ARFaceAnchor](https://developer.apple.com/documentation/arkit/arfaceanchor)*.
   
 ### Look At Position
 - OSC Address: `/(deviceUUID)/(facelookatposition)`
