@@ -21,6 +21,7 @@ No outputs.
 
 - `CAMERA`: send images captured by camera.
 - `DEPTH`: send depth maps captured by camera.
+- `BOTH`: send camera images in RGB channel and depth maps in alpha channel. 
 
 ### Camera
 
