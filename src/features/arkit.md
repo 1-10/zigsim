@@ -40,6 +40,41 @@ This means the marker position is relative position from the device.
 
 This data is only available in **DEVICE** mode.
 
+### Face Position and Rotation
+
+- OSC Address
+  - Position: `/(deviceUUID)/faceposition`
+  - Rotation: `/(deviceUUID)/facerotation`
+- JSON key
+  - Position: `faceTracking.position`
+  - Rotation: `faceTracking.rotation`
+
+  For `Face Position and Rotation` and the details, see *[Apple Developer Documentation, ARFaceAnchor](https://developer.apple.com/documentation/arkit/arfaceanchor)*.
+  
+### Look At Position
+- OSC Address: `/(deviceUUID)/(facelookatposition)`
+- JSON key: `faceTracking.(lookAtPosition)`
+
+For `lookAtPosition` and the details, see *[Apple Developer Documentation, lookAtPoint](https://developer.apple.com/documentation/arkit/arfaceanchor/2968192-lookatpoint)*.
+
+### Left And Right Eye Position
+- OSC Address
+  - Left Position: `/(deviceUUID)/facelefteyeposition`
+  - Right Position: `/(deviceUUID)/facerighteyeposition`
+- JSON key
+  - Left Position: `faceTracking.leftEyePosition`
+  - Right Position: `faceTracking.rightEyePosition`
+
+For `leftEyePosition` and the details, see *[Apple Developer Documentation, leftEyeTransform](https://developer.apple.com/documentation/arkit/arfaceanchor/2968193-righteyetransform)*.
+For `rightEyePosition` and the details, see *[Apple Developer Documentation, rightEyeTransform](https://developer.apple.com/documentation/arkit/arfaceanchor/2968191-lefteyetransform)*.
+
+### Specific Facial Features Position
+
+- OSC Address: `/(deviceUUID)/face(FEATURES_NAME)`
+- JSON key: `faceTracking.(FEATURES_NAME)`
+
+For `FEATURES_NAME` and the details, see *[Apple Developer Documentation, ARFaceAnchor.BlendShapeLocation](https://developer.apple.com/documentation/arkit/arfaceanchor/blendshapelocation)*.
+
 ### Marker Position and Rotation
 
 - OSC Address
