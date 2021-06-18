@@ -81,24 +81,8 @@ For `FEATURES_NAME` and the details, see *[Apple Developer Documentation, ARFace
   - Position: `/(deviceUUID)/imageposition(MARKER_ID)`
   - Rotation: `/(deviceUUID)/imagerotation(MARKER_ID)`
 - JSON key
-  - Position: `arkit.images[(MARKER_ID)].position`
-  - Rotation: `arkit.images[(MARKER_ID)].rotation`
-
-### Feature Points
-
-- OSC Address: `/(deviceUUID)/arkitrotation`
-- JSON key: `arkit.rotation`
-
-### Marker Position and Rotation
-
-- OSC Address
-  - Position: `/(deviceUUID)/imageposition(MARKER_ID)`
-  - Rotation: `/(deviceUUID)/imagerotation(MARKER_ID)`
-- JSON key
-  - Position: `arkit.images[(MARKER_ID)].position`
-  - Rotation: `arkit.images[(MARKER_ID)].rotation`
-
-This data is only avalable in **DEVICE** mode and **MARKER** mode.
+  - Position: `imageTracking.images[(MARKER_ID)].position`
+  - Rotation: `imageTracking.images[(MARKER_ID)].rotation`
 
 ## Detail Settings
 
