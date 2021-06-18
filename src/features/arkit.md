@@ -4,7 +4,7 @@
 
 ARKit command tracks the position and the rotation for various objects.
 
-This command has 3 mode: **DEVICE**, **FACE** and **MARKER**.
+This command has 4 mode: **DEVICE**, **FACE** ,**MARKER** and **BODY**.
 These modes correspond to diffrent features of ARKit.
 
 In **DEVICE** mode, ZIG SIM will track the 6DoF position of the device.
@@ -13,6 +13,8 @@ In **FACE** mode, ZIG SIM does face tracking.
 
 In **MARKER** mode, ZIG SIM tracks pre-defined markers.
 The markers can be obtained here: *[zigsim-markers.zip](../zigsim-markers.zip)*
+
+In **BODY** mode, ZIG SIM tracks human body position and the 6DoF position of the device.
 
 ARKit command is only available in ZIG SIM Pro.
 Also, you cannot use NDI, ARKit and Image Detection simultaneously.
@@ -28,7 +30,7 @@ Also, you cannot use NDI, ARKit and Image Detection simultaneously.
   - Position: `arkit.position`
   - Rotation: `arkit.rotation`
 
-This data is only avalable in **DEVICE** mode and **MARKER** mode.  
+This data is only available in **DEVICE** mode, **MARKER** mode and **BODY** mode.  
 
 In `MARKER` mode the device position is always (0.0, 0.0, 0.0).
 This means the marker position is relative position from the device.
@@ -38,7 +40,7 @@ This means the marker position is relative position from the device.
 - OSC Address: `/(deviceUUID)/featurepoints`
 - JSON key: `arkit.featurePoints`
 
-This data is only available in **DEVICE** mode.
+This data is only available in **DEVICE** mode and **BODY** mode.
 
 ### Face Position and Rotation
 
@@ -84,6 +86,17 @@ For `FEATURES_NAME` and the details, see *[Apple Developer Documentation, ARFace
   - Position: `imageTracking.images[(MARKER_ID)].position`
   - Rotation: `imageTracking.images[(MARKER_ID)].rotation`
 
+### Body Joint' Position
+
+- OSC Address
+  - Position: `/(deviceUUID)/body_(JOINT_NAME)`
+- JSON key
+  - Position: `bodyTracking.(JOINT_NAME)`
+
+This position data is in the world coordinate system.(same as device position)
+
+For `JOINT_NAME` and the details, see *[Apple Developer Documentation, Validating a Model for Motion Capture](https://developer.apple.com/documentation/arkit/content_anchors/validating_a_model_for_motion_capture)*.
+
 ## Detail Settings
 
 ### Tracking Type
@@ -91,8 +104,11 @@ For `FEATURES_NAME` and the details, see *[Apple Developer Documentation, ARFace
 Users can choose objects to detect.
 
 - **DEVICE**: device position, device rotation, feature points' positions.
-- **FACE**: device rotation, face position, face rotation, eye position.
-- **MARKER**: device rotation, marker position, marker rotation.
+- **FACE**: face position, face rotation, eye position, look at position, left and right rye position, specific facial features position.
+- **MARKER**: device position, device rotation, marker position, marker rotation.
+- **BODY**: device position, device rotation, body joint' position, feature points' positions.
+
+  ※ **BODY** can be used on device equipped with A12 chip or higher.
 
 ### Feature Points
 
