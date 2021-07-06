@@ -17,7 +17,14 @@ No outputs.
 
 ## Detail Settings
 
-### Image Type
+### Scene Type
+
+- `WORLD`: everything captured by camera.
+- `HUMAN`: human captured by camera.
+
+※ HUMAN can be used on device equipped with A12 chip or higher.
+
+### World Image Type
 
 - `CAMERA`: send images captured by camera.
 - `DEPTH`: send depth maps captured by camera.
@@ -31,6 +38,15 @@ Toggle camera between `REAR` and `FRONT`.
 
 - `DEPTH`: capture depth map.
 - `DISPARITY`: capture disparity map.
+
+### Human Image Type
+
+- `HUMAN`: send human stencil images in RGB channel and alpha channel.
+- `BOTH1, BOTH2`: send camera images in RGB channel and human stencil in alpha channel.
+
+※The alpha in "HUMAN" for the front camera is depth map.
+※The alpha in "BOTH1" is 0.5 .
+※The alpha in "BOTH2" is a diff between alpha value and red value of the human part of images.
 
 ### Resolution
 
